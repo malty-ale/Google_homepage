@@ -1,0 +1,148 @@
+body{
+	color:#222;
+	font-family:arial,sans-serif;
+}
+header{
+	height:30px;
+	width:100%;
+	position:absolute;
+	top:16px;
+	text-align:left;
+	font-size:13px;
+	opacity:0.75;
+}
+.hdr-buttons{
+	position:absolute;
+	right:140px;
+	height: 100%;
+	width: 200px;
+}
+.hdr-buttons li{
+	display:inline-block;
+	list-style-type:none;
+	line-height:24px;
+	padding:3px 5px;
+}
+.image-buttons{
+	width:30px;
+	height:100%;
+	position: absolute;
+	opacity:55%;
+	background-image: url(https://ssl.gstatic.com/gb/images/i1_0430b5ba.png);
+	background-size: 528px 68px;
+}
+#settings{
+	background-position:-132px -38px;
+	right:195px;
+}
+#alarm{
+	width: 20px;
+	height: 20px;
+	box-sizing:border-box;
+	background-position:-194px -21px;
+	background-color:rgb(0,0,0);
+	border-radius:50%;
+	right: 155px;
+	margin:6px 0;
+}
+.jumbotron{
+	margin-top:80px;
+}
+
+.logo{
+	margin:0 auto;
+	text-align:center;
+	width:269px;
+	height:95px;
+	padding-top:112px;
+}
+.logo img{
+	max-height:100%;
+	transition:all 4s;
+}
+.logo img:hover{
+	transform: translate(0,200px);
+}
+.search{
+	margin-top:20px;
+	text-align:center;
+}
+.search form{
+	position:relative;
+	margin: 0 auto;
+	width: 650px;
+}
+.bar{
+	margin:0 auto;
+	height:40px;
+	width:568px;
+	box-sizing:border-box;
+	padding: 3px 9px 3px;
+	height:28px;
+	line-height:28px;
+	font-size:16px;
+	border: 1px solid #d9d9d9;
+	border-top-color:#c0c0c0; 
+}
+.mic{
+	position:absolute;
+	height:20px;
+	width:19px;
+	right:42px;
+	top:4px;
+}
+#basic-search, #IFL{
+	position:absolute;
+	top:40px;
+	background-color:#f8f8f8;
+	background-image: -webkit-linear-gradient(top, rgb(248,248,248),rgb(241,241,241));
+	border: 1px solid #c6c6c6;
+	box-shadow:0 1px 1px rgba(0,0,0,0.1);
+	height:29px;
+	line-height:25px;
+	font-size: 11px;
+	font-weight: bold;
+	padding: 3px 8px;
+	border-radius: 2px;
+}
+#basic-search{
+	left:200px;
+	width:100px;
+}
+#IFL{
+	right:180px;
+	width:130px;
+}
+footer{
+	position:absolute;
+	bottom:0px;
+	background-color:rgb(242,242,242);
+	border-top:1px rgb(228,228,228) solid;
+	height:41px;
+	font-size:13.33px;
+	font-family:arial, sans-serif;
+	width:100%;
+	color:rgb(102,102,102);
+	line-height:40px;
+}
+.left{
+	position:absolute;
+	left:0;
+	padding-left:15px;
+}
+.left a,.right a{
+	display:inline-block;
+	padding:0 13px;
+}
+.right{
+	position:absolute;
+	right:0;
+	padding-right:15px;
+}
+a:hover{
+	text-decoration:underline;
+}
+a{
+	text-decoration:none;
+	color:inherit;
+}
